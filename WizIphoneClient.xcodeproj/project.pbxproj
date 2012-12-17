@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874DB924167EDAA50086CF1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874DB923167EDAA50086CF1C /* UIKit.framework */; };
+		874DB926167EDAA50086CF1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874DB925167EDAA50086CF1C /* Foundation.framework */; };
+		874DB928167EDAA50086CF1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874DB927167EDAA50086CF1C /* CoreGraphics.framework */; };
+		874DB92E167EDAA50086CF1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874DB92C167EDAA50086CF1C /* InfoPlist.strings */; };
+		874DB930167EDAA50086CF1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 874DB92F167EDAA50086CF1C /* main.m */; };
+		874DB934167EDAA50086CF1C /* WizAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 874DB933167EDAA50086CF1C /* WizAppDelegate.m */; };
+		874DB936167EDAA50086CF1C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 874DB935167EDAA50086CF1C /* Default.png */; };
+		874DB938167EDAA50086CF1C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 874DB937167EDAA50086CF1C /* Default@2x.png */; };
+		874DB93A167EDAA50086CF1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 874DB939167EDAA50086CF1C /* Default-568h@2x.png */; };
+		874DB93D167EDAA50086CF1C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874DB93B167EDAA50086CF1C /* MainStoryboard.storyboard */; };
+		874DB940167EDAA50086CF1C /* WizFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 874DB93F167EDAA50086CF1C /* WizFirstViewController.m */; };
+		874DB942167EDAA50086CF1C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 874DB941167EDAA50086CF1C /* first.png */; };
+		874DB944167EDAA50086CF1C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 874DB943167EDAA50086CF1C /* first@2x.png */; };
+		874DB947167EDAA50086CF1C /* WizSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 874DB946167EDAA50086CF1C /* WizSecondViewController.m */; };
+		874DB949167EDAA50086CF1C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 874DB948167EDAA50086CF1C /* second.png */; };
+		874DB94B167EDAA50086CF1C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 874DB94A167EDAA50086CF1C /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		874DB91F167EDAA50086CF1C /* WizIphoneClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WizIphoneClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		874DB923167EDAA50086CF1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		874DB925167EDAA50086CF1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		874DB927167EDAA50086CF1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		874DB92B167EDAA50086CF1C /* WizIphoneClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WizIphoneClient-Info.plist"; sourceTree = "<group>"; };
+		874DB92D167EDAA50086CF1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		874DB92F167EDAA50086CF1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		874DB931167EDAA50086CF1C /* WizIphoneClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WizIphoneClient-Prefix.pch"; sourceTree = "<group>"; };
+		874DB932167EDAA50086CF1C /* WizAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WizAppDelegate.h; sourceTree = "<group>"; };
+		874DB933167EDAA50086CF1C /* WizAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WizAppDelegate.m; sourceTree = "<group>"; };
+		874DB935167EDAA50086CF1C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		874DB937167EDAA50086CF1C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		874DB939167EDAA50086CF1C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		874DB93C167EDAA50086CF1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		874DB93E167EDAA50086CF1C /* WizFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WizFirstViewController.h; sourceTree = "<group>"; };
+		874DB93F167EDAA50086CF1C /* WizFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WizFirstViewController.m; sourceTree = "<group>"; };
+		874DB941167EDAA50086CF1C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		874DB943167EDAA50086CF1C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		874DB945167EDAA50086CF1C /* WizSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WizSecondViewController.h; sourceTree = "<group>"; };
+		874DB946167EDAA50086CF1C /* WizSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WizSecondViewController.m; sourceTree = "<group>"; };
+		874DB948167EDAA50086CF1C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		874DB94A167EDAA50086CF1C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874DB91C167EDAA50086CF1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874DB924167EDAA50086CF1C /* UIKit.framework in Frameworks */,
+				874DB926167EDAA50086CF1C /* Foundation.framework in Frameworks */,
+				874DB928167EDAA50086CF1C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		874DB914167EDAA50086CF1C = {
+			isa = PBXGroup;
+			children = (
+				874DB929167EDAA50086CF1C /* WizIphoneClient */,
+				874DB922167EDAA50086CF1C /* Frameworks */,
+				874DB920167EDAA50086CF1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		874DB920167EDAA50086CF1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874DB91F167EDAA50086CF1C /* WizIphoneClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874DB922167EDAA50086CF1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874DB923167EDAA50086CF1C /* UIKit.framework */,
+				874DB925167EDAA50086CF1C /* Foundation.framework */,
+				874DB927167EDAA50086CF1C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		874DB929167EDAA50086CF1C /* WizIphoneClient */ = {
+			isa = PBXGroup;
+			children = (
+				874DB932167EDAA50086CF1C /* WizAppDelegate.h */,
+				874DB933167EDAA50086CF1C /* WizAppDelegate.m */,
+				874DB93B167EDAA50086CF1C /* MainStoryboard.storyboard */,
+				874DB93E167EDAA50086CF1C /* WizFirstViewController.h */,
+				874DB93F167EDAA50086CF1C /* WizFirstViewController.m */,
+				874DB941167EDAA50086CF1C /* first.png */,
+				874DB943167EDAA50086CF1C /* first@2x.png */,
+				874DB945167EDAA50086CF1C /* WizSecondViewController.h */,
+				874DB946167EDAA50086CF1C /* WizSecondViewController.m */,
+				874DB948167EDAA50086CF1C /* second.png */,
+				874DB94A167EDAA50086CF1C /* second@2x.png */,
+				874DB92A167EDAA50086CF1C /* Supporting Files */,
+			);
+			path = WizIphoneClient;
+			sourceTree = "<group>";
+		};
+		874DB92A167EDAA50086CF1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				874DB92B167EDAA50086CF1C /* WizIphoneClient-Info.plist */,
+				874DB92C167EDAA50086CF1C /* InfoPlist.strings */,
+				874DB92F167EDAA50086CF1C /* main.m */,
+				874DB931167EDAA50086CF1C /* WizIphoneClient-Prefix.pch */,
+				874DB935167EDAA50086CF1C /* Default.png */,
+				874DB937167EDAA50086CF1C /* Default@2x.png */,
+				874DB939167EDAA50086CF1C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874DB91E167EDAA50086CF1C /* WizIphoneClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874DB94E167EDAA50086CF1C /* Build configuration list for PBXNativeTarget "WizIphoneClient" */;
+			buildPhases = (
+				874DB91B167EDAA50086CF1C /* Sources */,
+				874DB91C167EDAA50086CF1C /* Frameworks */,
+				874DB91D167EDAA50086CF1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WizIphoneClient;
+			productName = WizIphoneClient;
+			productReference = 874DB91F167EDAA50086CF1C /* WizIphoneClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874DB916167EDAA50086CF1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Wiz;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = wiz;
+			};
+			buildConfigurationList = 874DB919167EDAA50086CF1C /* Build configuration list for PBXProject "WizIphoneClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 874DB914167EDAA50086CF1C;
+			productRefGroup = 874DB920167EDAA50086CF1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874DB91E167EDAA50086CF1C /* WizIphoneClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		874DB91D167EDAA50086CF1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874DB92E167EDAA50086CF1C /* InfoPlist.strings in Resources */,
+				874DB936167EDAA50086CF1C /* Default.png in Resources */,
+				874DB938167EDAA50086CF1C /* Default@2x.png in Resources */,
+				874DB93A167EDAA50086CF1C /* Default-568h@2x.png in Resources */,
+				874DB93D167EDAA50086CF1C /* MainStoryboard.storyboard in Resources */,
+				874DB942167EDAA50086CF1C /* first.png in Resources */,
+				874DB944167EDAA50086CF1C /* first@2x.png in Resources */,
+				874DB949167EDAA50086CF1C /* second.png in Resources */,
+				874DB94B167EDAA50086CF1C /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874DB91B167EDAA50086CF1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874DB930167EDAA50086CF1C /* main.m in Sources */,
+				874DB934167EDAA50086CF1C /* WizAppDelegate.m in Sources */,
+				874DB940167EDAA50086CF1C /* WizFirstViewController.m in Sources */,
+				874DB947167EDAA50086CF1C /* WizSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		874DB92C167EDAA50086CF1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874DB92D167EDAA50086CF1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		874DB93B167EDAA50086CF1C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874DB93C167EDAA50086CF1C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		874DB94C167EDAA50086CF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		874DB94D167EDAA50086CF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		874DB94F167EDAA50086CF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WizIphoneClient/WizIphoneClient-Prefix.pch";
+				INFOPLIST_FILE = "WizIphoneClient/WizIphoneClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		874DB950167EDAA50086CF1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WizIphoneClient/WizIphoneClient-Prefix.pch";
+				INFOPLIST_FILE = "WizIphoneClient/WizIphoneClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874DB919167EDAA50086CF1C /* Build configuration list for PBXProject "WizIphoneClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874DB94C167EDAA50086CF1C /* Debug */,
+				874DB94D167EDAA50086CF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874DB94E167EDAA50086CF1C /* Build configuration list for PBXNativeTarget "WizIphoneClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874DB94F167EDAA50086CF1C /* Debug */,
+				874DB950167EDAA50086CF1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 874DB916167EDAA50086CF1C /* Project object */;
+}
